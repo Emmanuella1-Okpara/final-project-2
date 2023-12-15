@@ -1,0 +1,739 @@
+:root {
+    --main-color:  rgb(235, 138, 12);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem 1.5rem;
+}
+
+nav .logo img {
+    height: 2rem;
+    float: left;
+    
+}
+
+nav .logo span {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #000;
+    float: left;
+    padding-left: 0;
+}
+
+nav .logo .dot {
+    color: var(--main-color);
+}
+
+nav .links {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    }
+
+nav .links .link {
+    padding: 2px 1rem;
+    font-weight: 500;
+    font-size: small;
+    opacity: 1;
+    color: #000;
+}
+
+nav .links .link:hover {
+    opacity: 2;
+    background-image: linear-gradient(to right, red, rgb(240, 145, 4));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav .gradient1 {
+    padding: .7rem 1.5rem;
+    border-radius: 5%;
+    border: none;
+    background-image: linear-gradient(to right, red, rgb(240, 145, 4));
+    cursor: pointer;
+    color: #fff;
+    transition-timing-function: ease-in-out 2s;
+}
+
+nav .gradient1:hover {
+    width: 5rem;
+    height: 3rem;
+}
+
+main .first-section {
+    background-color: #fff;
+    padding: 2rem 14rem;
+    justify-content: center;
+    display: flex;
+    gap: 2rem;
+    align-items: flex-end;
+}
+
+main .first-section .text-section {
+    padding: 3rem 0;
+}
+
+main .first-section .text-section h2 {
+    font-size: 1rem;
+}
+
+main .first-section .text-section h1 {
+    font-size: 2rem;
+    color: #000;
+}
+
+main .first-section .text-section h1 span {
+    color: var(--main-color);
+}
+
+main .first-section .text-section h4{
+    font-size: 1rem;
+    color: #000;
+    margin: 1.5rem 0;
+}
+
+main .first-section .text-section .description {
+    font-size: .8rem;
+    opacity: .7rem;
+    max-width: 80%;
+    color: #000;
+}
+
+main .first-section .text-section button {
+    padding: 5px 7px;
+    margin-top: 8px;
+    border-radius: 5%;
+    border: none;
+    background-image: linear-gradient(to right, red, rgb(240, 145, 4));
+    cursor: pointer;
+    color: #fff;
+    transition-timing-function: ease-in-out 2s;
+}
+
+main .first-section .image-section img {
+    width: 32rem;
+    height: 30rem;
+    padding-top: 0;
+}
+
+main .first-section .Apps-section i {
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: .5rem .7rem;
+    font-size: large;
+    cursor: pointer;
+}
+
+main .first-section .Apps-section {
+    display: grid;
+    row-gap: 50px;
+    align-items: self-start;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+main .second-section {
+    background-color: #fff;
+    padding: 2rem 6rem;
+    justify-content: center;
+    display: flex;
+    gap: 2rem;
+    align-items: flex-end;
+}
+
+main .second-section .image-section2 img {
+    width: 27rem;
+    height: 30rem;
+}
+
+main .second-section .text-section2 {
+    padding: 3rem 0;
+}
+
+
+main .second-section p {
+    font-size: 1rem;
+    color: #000;
+    padding-bottom: 2rem;
+}
+
+main .second-section p span {
+    color: var(--main-color);
+} 
+
+main .second-section h4 {
+    font-size: 1.5rem;
+    color: #000;
+    padding-bottom: 2rem;
+}
+
+main .second-section h4 span {
+    color: var(--main-color);
+}
+
+.btns1 button {
+    padding: 5px 7px;
+    margin-right: 1.5rem;
+    color: #000;
+    border-radius: 5%;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 0 5px 5px grey;
+}
+
+.btns1 .gradient2 {
+    padding: 5px 7px;
+    margin-right: 1.5rem;
+    margin-top: 8px;
+    border-radius: 5%;
+    border: none;
+    background-image: linear-gradient(to right, red, rgb(240, 145, 4));
+    cursor: pointer;
+    color: #fff;
+    transition-timing-function: ease-in-out 2s;
+}
+
+.btns1 {
+    padding-bottom: 2rem;
+    display: flex;
+    gap: 2.5rem;
+}
+
+main .second-section .lists {
+    list-style: image();
+}
+
+main .second-section .text-section2 .lists p {
+    font-size: .5rem;
+    color: #000;
+    padding-bottom: 5px;
+}
+
+main .services p {
+    font-size: 1rem;
+    color: #000;
+    opacity: 1;
+    text-align: center;
+    position: relative;
+}
+
+main .services p span {
+    color: var(--main-color);
+}
+
+main .third-section {
+    background-color: #fff;
+    padding: 6rem 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    align-items: flex-end;
+}
+
+main .third-section .imagetext-section1 img {
+    width: 25rem;
+    height: 15rem;
+}
+
+main .third-section .Experience {
+    padding: 3rem 2rem;
+}
+
+main .third-section .Experience h5 {
+    font-size: 1rem;
+    color: #000;
+    padding-bottom: 1rem;
+}
+
+main .third-section .Experience p {
+    font-size: .8rem;
+    opacity: 2;
+    max-width: 80%;
+    color: #000;
+    padding-bottom: 1rem;
+}
+
+main .third-section .Experience .gradient2 {
+    padding: 5px 7px;
+    margin-right: 1.5rem;
+    margin-top: 8px;
+    border-radius: 5%;
+    border: none;
+    background-image: linear-gradient(to right, red, rgb(240, 145, 4));
+    cursor: pointer;
+    color: #fff;
+    transition-timing-function: ease-in-out 2s;
+}
+
+main .third-section .imagetext-section2 img {
+    width: 25rem;
+    height: 15rem;
+}
+
+main .third-section .imagetext-section1 {
+    box-shadow: 0 5px 5px grey;
+    border: none;
+    border-radius: 5%;
+}
+
+main .third-section .imagetext-section2 {
+    box-shadow: 0 5px 5px grey;
+    border: none;
+    border-radius: 5%;
+}
+
+main .fourth-section {
+    background-color: #fff;
+    padding: 2.5rem 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    align-items: flex-end;
+}
+
+main .fourth-section .imagetext-section3 .Experience {
+    padding: 3rem 2rem;
+}
+
+main .fourth-section .imagetext-section3 .Experience p {
+    font-size: .8rem;
+    opacity: 2;
+    max-width: 80%;
+    background-image: linear-gradient(to right, red, rgb(240, 145, 4));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 1rem
+}
+
+main .fourth-section .imagetext-section3 .Experience h2 {
+    font-size: 2rem;
+    color: #000;
+    padding-bottom: 1rem;
+}
+
+main .fourth-section .imagetext-section3 .Experience button {
+    padding: 5px 7px;
+    margin-right: 1.5rem;
+    margin-top: 8px;
+    border-radius: 5%;
+    border: none;
+    background-image: linear-gradient(to right, red, rgb(240, 145, 4));
+    cursor: pointer;
+    color: #fff;
+    transition-timing-function: ease-in-out 2s;
+}
+
+main .fourth-section .imagetext-section3 img {
+    width: 15rem;
+    height: 15rem;
+}
+
+main .fourth-section .imagetext-section3 {
+    box-shadow: 0 5px 5px grey;
+    display: flex;
+    align-items: flex-end;
+    border: none;
+    border-radius: 5%;
+}
+
+main .fifth-section .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .fifth-section .Portfolio {
+    font-size: .8rem;
+    opacity: 2;
+    max-width: 100%;
+    background-image: linear-gradient(to right, red, rgb(240, 145, 4));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+main .fifth-section h3 {
+    font-size: 1.5rem;
+    color: #000;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+main .fifth-section .buttons button {
+    padding: 4px 6px;
+    margin-right: 1.5rem;
+    color: #000;
+    border-radius: 5%;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 0 5px 8px grey;
+    display: flex;
+}
+
+main .fifth-section .buttons .gradient2 {
+    padding: 4px 6px;
+    margin-right: 1.5rem;
+    border-radius: 5%;
+    border: none;
+    background-image: linear-gradient(to right, red, rgb(240, 145, 4));
+    cursor: pointer;
+    color: #fff;
+    transition-timing-function: ease-in-out 2s;
+}
+
+main .fifth-section img {
+    width: 12rem;
+    height: 15rem;
+}
+
+main .fifth-section .imagetext-section4 {
+    display: flex;
+    align-items: flex-end;
+    background-color: #fff;
+    width: 100%;
+    padding: 2rem;
+    gap: 2rem;
+    border-radius: 5%;
+    border: none;
+    box-shadow: 0 5px 5px grey;
+}
+
+main .fifth-section .imagetext-section4 .text4 button {
+    padding: 4px 6px;
+    margin-bottom: 2rem;
+    color: #000;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 5px 0 5px grey;
+}
+
+main .fifth-section .imagetext-section4 .text4 h5 {
+    font-size: 1rem;
+    color: #000;
+    padding-bottom: 1rem;
+}
+
+main .fifth-section .imagetext-section4 .text4 p {
+    font-size: .8rem;
+    opacity: 3;
+    max-width: 100%;
+    color: #000;
+    padding-bottom: 1rem;
+}
+
+main .fifth-section .imagetext-section4 .text4 .gradient2 {
+    padding: 4px 6px;
+    border-radius: 5%;
+    border: none;
+    background-image: linear-gradient(to right, red, rgb(240, 145, 4));
+    cursor: pointer;
+    color: #fff;
+    transition-timing-function: ease-in-out 2s;
+    box-shadow: none;
+}
+
+main .fifth-section .imagetext-section5 {
+    display: flex;
+    align-items: flex-end;
+    background-color: #fff;
+    width: 100%;
+    padding: 2rem 2rem;
+    gap: 2rem;
+    border-radius: 5%;
+    border: none;
+    box-shadow: 0 5px 5px grey;
+}
+
+main .fifth-section .imagetext-section5 .text5 button {
+    padding: 4px 6px;
+    margin-bottom: 2rem;
+    color: #000;
+    border-radius: 5%;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 5px 0 5px grey;
+}
+
+main .fifth-section .imagetext-section5 .text5 h5 {
+    font-size: 1rem;
+    color: #000;
+    padding-bottom: 1rem;
+}
+
+main .fifth-section .imagetext-section5 .text5 p {
+    font-size: .8rem;
+    opacity: 3;
+    max-width: 100%;
+    color: #000;
+    padding-bottom: 1rem;
+}
+
+main .fifth-section .imagetext-section5 .text5 .gradient2 {
+    padding: 4px 6px;
+    border-radius: 5%;
+    border: none;
+    background-image: linear-gradient(to right, red, rgb(240, 145, 4));
+    cursor: pointer;
+    color: #fff;
+    transition-timing-function: ease-in-out 2s;
+    box-shadow: none;
+}
+
+main .fifth-section .image-section45 {
+    display: grid;
+    grid-template-columns: 21rem 21rem;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    margin-right: 5%;
+    padding-right: 5rem;
+    gap: 7rem;
+}
+
+main .fifth-section .imagetext-section6 {
+    display: flex;
+    align-items: flex-end;
+    background-color: #fff;
+    padding: 2rem 2rem;
+    gap: 2rem;
+    border-radius: 5%;
+    border: none;
+    box-shadow: 0 5px 5px grey;
+}
+
+main .fifth-section .imagetext-section6 .text6 button {
+    padding: 4px 6px;
+    margin-bottom: 2rem;
+    color: #000;
+    border-radius: 5%;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 5px 0 5px grey;
+}
+
+main .fifth-section .imagetext-section6 .text6 h5 {
+    font-size: 1rem;
+    color: #000;
+    padding-bottom: 2rem;
+}
+
+main .fifth-section .imagetext-section6 .text6 p {
+    font-size: .8rem;
+    opacity: 3;
+    max-width: 100%;
+    color: #000;
+    padding-bottom: 2rem;
+}
+
+main .fifth-section .imagetext-section7 {
+    display: flex;
+    align-items: flex-end;
+    background-color: #fff;
+    padding: 2rem 2rem;
+    gap: 2rem;
+    border-radius: 5%;
+    border: none;
+    box-shadow: 0 5px 5px grey;
+}
+
+main .fifth-section .imagetext-section7 .text7 button {
+    padding: 4px 6px;
+    margin-bottom: 2rem;
+    color: #000;
+    border-radius: 5%;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 5px 0 5px grey;
+}
+
+main .fifth-section .imagetext-section7 .text7 h5 {
+    font-size: 1rem;
+    color: #000;
+    padding-bottom: 1rem;
+}
+
+main .fifth-section .imagetext-section7 .text7 p {
+    font-size: .8rem;
+    opacity: 3;
+    max-width: 100%;
+    color: #000;
+    padding-bottom: 1rem;
+}
+
+main .fifth-section .image-section67 {
+    display: grid;
+    grid-template-columns: 25rem 25rem;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+    margin: 4rem;
+    margin-right: 4rem;
+    gap: 3rem;
+}
+
+main .fifth-section .imagetext-section6 .text6 .gradient2 {
+    padding: 4px 6px;
+    border-radius: 5%;
+    border: none;
+    background-image: linear-gradient(to right, red, rgb(240, 145, 4));
+    cursor: pointer;
+    color: #fff;
+    transition-timing-function: 2s ease-in-out;
+    box-shadow: none;
+}
+
+main .fifth-section .imagetext-section7 .text7 .gradient2 {
+    padding: 4px 6px;
+    border-radius: 5%;
+    border: none;
+    background-image: linear-gradient(to right, red, rgb(240, 145, 4));
+    cursor: pointer;
+    color: #fff;
+    transition-timing-function: ease-in-out 2s;
+    box-shadow: none;
+}
+
+main .sixth-section {
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+main .sixth-section p {
+    font-size: .8rem;
+    opacity: 2;
+    max-width: 100%;
+    color: var(--main-color);
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+main .sixth-section .text-picture .text-area{
+    background-color: #fff;
+    width: fit-content;
+    padding: 2rem 2rem;
+    gap: 2rem;
+    border-radius: 5%;
+    border: none;
+    box-shadow: 0 5px 5px grey;
+}
+
+main .sixth-section .text-picture .text-area h3{
+    font-size: 1rem;
+    color: #000;
+    padding-bottom: 1rem;
+}
+
+main .sixth-section .text-picture .text-area form input {
+    padding: 4px 6px;
+    margin-bottom: 2rem;
+    color: #000;
+    border-radius: 5%;
+    border: none;
+    background-color: #fff;
+    cursor: cell;
+    box-shadow: 0 3px 3px grey;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+main .sixth-section .text-picture .text-area form .message {
+    padding: 0 7rem 5rem;
+    align-items: start;
+}
+
+main .sixth-section .text-picture .text-area button {
+    padding: 4px 6px;
+    border-radius: 5%;
+    border: none;
+    background-image: linear-gradient(to right, red, rgb(240, 145, 4));
+    cursor: pointer;
+    color: #fff;
+    transition-timing-function: ease-in-out 2s;
+    box-shadow: none;
+}
+
+main .sixth-section .text-picture .image-area img {
+    width: 15rem;
+    height: 20rem;
+    box-shadow: 0 5px 5px black;
+}
+
+main .sixth-section .text-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+main .seventh-section .logo-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .seventh-section .logo-image img {
+    width: 10rem;
+    height: 10rem;
+}
+
+main .seventh-section h5 {
+    font-size: .8rem;
+    color: #000;
+    padding-bottom: 2.5rem;
+    text-align: center;
+}
+
+main .seventh-section .Apps-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+main .seventh-section .Apps-section i {
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: .5rem .7rem;
+    font-size: large;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    border-top: 2px solid #000;
+}
+
+footer h6 {
+    display: flex;
+    font-size: .5rem;
+    opacity: .5;
+    padding: 2rem 4rem;
+}
